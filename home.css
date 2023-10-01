@@ -1,0 +1,186 @@
+/** {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(8, 108, 179);
+}*/
+
+/*
+.slider {
+    position: absolute;
+    width: 60%;
+    overflow: visible;
+}
+.images {
+    display: flex;
+    width: 100%;
+}
+.images img {
+    height: 200px;
+    width: 75%;
+    transition: all 0.15s ease;
+}
+.banner-container {
+    /*background-image: url("../img/gb.png");/
+    background-attachment: fixed;
+    box-shadow: inset 1 0 0 2000px #e93838f6;
+    text-align: center;
+    padding: 160px 15px;
+}
+
+
+@media (max-width: 768px) {
+    .banner-container {
+        padding: 100px 15px;
+    }
+}
+
+.city-search {
+    max-width: 530px;
+    margin: auto;
+    position: relative;
+}
+
+.city-heading {
+    text-align: center;
+}
+
+.city-card-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.city-card {
+    
+    background-color: #ec7322;
+    box-shadow: 0 2px 5px 0 rgba(12, 91, 131, 0.924), 0 2px 10px 0 rgb(8, 108, 179);
+    display: inline-block;
+    padding: 20px;
+}
+
+.city-card:focus,
+.city-card:hover {
+    box-shadow: 0 5px 11px 0 rgba(37, 141, 127, 0.18), 0 4px 15px 0 rgba(37, 176, 174, 0.15);
+}
+
+.city-img {
+    height: 50px;
+    width: 50px;
+}
+# CSS for Image Slider 
+.slider {
+    position: relative;
+    width: 75%;
+    max-width: 75%;
+    overflow: hidden;
+  }
+  
+  .images {
+    display: flex;
+    transition: transform 0.15s ease;
+  }
+  
+  .images img {
+    width: 75%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  /* Style for navigation dots *\/
+  .dots {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #7428ae;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  input[type="radio"]:checked + label {
+    background-color: #500a97; /* Change this color to your desired active dot color /
+  }*/
+  
+  /* Adjust the styles as needed for positioning and other customization */
+
+  /* CSS for Image Slider */
+
+  /* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and make body a flex container */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(8, 108, 179);
+}
+
+/* Style for the slider container */
+.slider {
+    position: relative;
+    width: 100%; /* Full width */
+    max-width: 800px; /* Limit the maximum width if needed */
+    overflow: hidden;
+    margin: auto;
+}
+
+/* Style for the image container */
+.images {
+    display: flex;
+    transition: transform 0.15s ease;
+}
+
+/* Style for individual images */
+.images img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container */
+}
+
+/* Hide radio buttons */
+input[type="radio"] {
+    display: none;
+}
+
+/* Style for navigation dots */
+.dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #7428ae;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+input[type="radio"]:checked + label {
+    background-color: #500a97; /* Change this color to your desired active dot color */
+}
+
+/* Additional styles as needed */
